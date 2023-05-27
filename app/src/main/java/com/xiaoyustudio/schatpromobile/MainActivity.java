@@ -4,6 +4,7 @@ import static java.lang.System.*;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -42,7 +43,11 @@ public class MainActivity extends AppCompatActivity {
     }
     public void setServerAddress(){
 
-
+        
+    }
+    public void goSetting(View view){
+        Intent intent= new Intent(this, SettingsActivity1.class);
+        startActivity(intent);
         
     }
 }
