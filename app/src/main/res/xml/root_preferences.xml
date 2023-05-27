@@ -1,4 +1,5 @@
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <PreferenceCategory app:title="@string/messages_header">
 
@@ -30,6 +31,15 @@
             app:summaryOn="@string/attachment_summary_on"
             app:title="@string/attachment_title" />
 
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/SChat_Setting">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="switch_preference_1"
+            android:title="@string/Are_You_SB"
+            app:summaryOff="@string/Are_You_SB_OFF"
+            app:summaryOn="@string/Are_You_SB_ON" />
     </PreferenceCategory>
 
 </PreferenceScreen>

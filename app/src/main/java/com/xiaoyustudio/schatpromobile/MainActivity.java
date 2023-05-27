@@ -48,6 +48,6 @@ public class MainActivity extends AppCompatActivity {
     public void goSetting(View view){
         Intent intent= new Intent(this, SettingsActivity1.class);
         startActivity(intent);
-        
+
     }
 }

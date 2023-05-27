@@ -23,4 +23,9 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- Setting Preferences -->
+    <string name="SChat_Setting">SChat 设置</string>
+    <string name="Are_You_SB">你是傻逼吗</string>
+    <string name="Are_You_SB_ON">是这样的，你是一个傻逼</string>
+    <string name="Are_You_SB_OFF">虽然你选择了你不是一个傻逼，但是你还是一个傻逼</string>
 </resources>
