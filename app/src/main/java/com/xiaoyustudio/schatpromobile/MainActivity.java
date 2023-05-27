@@ -11,8 +11,13 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.net.Socket;
+import java.text.BreakIterator;
+
 
 public class MainActivity extends AppCompatActivity {
+    String host = "192.168.5.4";
+    int port = 19730;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,8 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Login(View v){
-        String host = "127.0.0.1";
-        int port = 19730;
+
         try {
             Socket Client = new Socket(host, port);
             Writer writer = new OutputStreamWriter(Client.getOutputStream());
@@ -32,8 +36,13 @@ public class MainActivity extends AppCompatActivity {
             writer.flush();
             writer.close();
             Client.close();
-            out.println("登录☆★☆Xiaoxiaoyu");
+
         }catch (IOException e) {
             e.printStackTrace();}
+    }
+    public void setServerAddress(){
+
+
+        
     }
 }

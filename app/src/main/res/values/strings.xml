@@ -3,5 +3,6 @@
     <string name="UsernameLabel">用户名：</string>
     <string name="passwordLabel">密码：</string>
     <string name="LoginButton">登录</string>
-
+    <string name="ServerLabel">服务器：</string>
+    <string name="ServerSetButtonLabel">设置</string>
 </resources>
