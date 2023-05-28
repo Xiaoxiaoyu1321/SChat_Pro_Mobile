@@ -1,32 +1,34 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <PreferenceCategory android:title="@string/UserSettingLabel">
+    <PreferenceCategory
+        android:title="@string/UserSettingLabel"
+        app:key="userName">
 
         <EditTextPreference
             android:defaultValue="Default value"
-            android:key="edit_text_preference_1"
+            android:key="userName"
             android:selectAllOnFocus="true"
             android:singleLine="true"
             android:title="@string/UserNameLabel"
             app:summary="设置你的用户名" />
         <EditTextPreference
             android:defaultValue="Default value"
-            android:key="edit_text_preference_1"
+            android:key="userPassword"
             android:selectAllOnFocus="true"
             android:singleLine="true"
             android:title="@string/UserPasswordLabel"
             app:summary="请保证你的密码安全" />
         <EditTextPreference
             android:defaultValue="@string/ServerAddressLabel_De"
-            android:key="edit_text_preference_1"
+            android:key="serverAddress"
             android:selectAllOnFocus="true"
             android:singleLine="true"
             android:title="@string/ServerAddressLabel"
             app:summary="设置要连接的服务器地址" />
         <EditTextPreference
             android:defaultValue="@string/ServerPortLabel_De"
-            android:key="edit_text_preference_1"
+            android:key="serverPort"
             android:selectAllOnFocus="true"
             android:singleLine="true"
             android:title="@string/ServerPortLabel"
