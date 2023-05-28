@@ -50,4 +50,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public void goDe_Chatroom(View view){
+        Intent intent = new Intent(this,MainActivity2.class);
+        startActivity(intent);
+
+    }
 }

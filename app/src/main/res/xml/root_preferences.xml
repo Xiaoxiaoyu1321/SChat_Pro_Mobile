@@ -1,36 +1,36 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <PreferenceCategory app:title="@string/messages_header">
+    <PreferenceCategory android:title="@string/UserSettingLabel">
 
         <EditTextPreference
-            app:key="signature"
-            app:title="@string/signature_title"
-            app:useSimpleSummaryProvider="true" />
-
-        <ListPreference
-            app:defaultValue="reply"
-            app:entries="@array/reply_entries"
-            app:entryValues="@array/reply_values"
-            app:key="reply"
-            app:title="@string/reply_title"
-            app:useSimpleSummaryProvider="true" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory app:title="@string/sync_header">
-
-        <SwitchPreferenceCompat
-            app:key="sync"
-            app:title="@string/sync_title" />
-
-        <SwitchPreferenceCompat
-            app:dependency="sync"
-            app:key="attachment"
-            app:summaryOff="@string/attachment_summary_off"
-            app:summaryOn="@string/attachment_summary_on"
-            app:title="@string/attachment_title" />
-
+            android:defaultValue="Default value"
+            android:key="edit_text_preference_1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/UserNameLabel"
+            app:summary="设置你的用户名" />
+        <EditTextPreference
+            android:defaultValue="Default value"
+            android:key="edit_text_preference_1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/UserPasswordLabel"
+            app:summary="请保证你的密码安全" />
+        <EditTextPreference
+            android:defaultValue="@string/ServerAddressLabel_De"
+            android:key="edit_text_preference_1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/ServerAddressLabel"
+            app:summary="设置要连接的服务器地址" />
+        <EditTextPreference
+            android:defaultValue="@string/ServerPortLabel_De"
+            android:key="edit_text_preference_1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/ServerPortLabel"
+            app:summary="设置要连接的服务器端口" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/SChat_Setting">
 
@@ -40,6 +40,15 @@
             android:title="@string/Are_You_SB"
             app:summaryOff="@string/Are_You_SB_OFF"
             app:summaryOn="@string/Are_You_SB_ON" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Get_Message">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="switch_preference_1"
+            android:title="@string/Get_Message"
+            app:summaryOff="@string/Get_Message_OFF"
+            app:summaryOn="@string/Get_Message_ON" />
     </PreferenceCategory>
 
 </PreferenceScreen>
