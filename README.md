@@ -5,6 +5,10 @@
 ### 关于此仓库   
 虽然Sunch 233 是一个不喜欢开源的人，但是我并不讨厌开源。这个客户端是我自己写的，我有开源它的权利，目前Sunch 233 对于Sunch233 聊天室的开发几乎停止，现在唯一可用的只有Sunch233 Chatroom Professional 及 SChat_Pro_Mobile 是受到支持的。   
        
+       
+![](.\img\1.png)    
+       
+       
 **注意：如果您是在Gitee 上查看此页面，则可能没有文档相应的资源，因为本页面的Gitee 上的资源是从Github 上自动同步的，如果你在下载文件的时候遇到问题，您可[访问Github页面](https://github.com/Xiaoxiaoyu1321/SChat_Pro_Mobile)下载**    
 ### 最低运行要求  
 操作系统: **Android 4.1(API 16)**     
